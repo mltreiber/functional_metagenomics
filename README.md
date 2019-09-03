@@ -1,4 +1,4 @@
-Recommendations for functional metagenomics of fecal microbiomes
+Recommendations for functional annotation of fecal metagenomes
 
 
 master_beta.galac.db_analysis_stoolmg.sh: This program was designed to set up the Beta-galactosidase analysis of 30 large stool metagenomes using the following steps:
