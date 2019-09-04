@@ -1,1 +1,13 @@
 
+Databases for Treiber et al "Pre- and post-sequencing recommendations for functional annotation of human fecal metagenomes"
+
+db_with_B-galac.faa: custom database of beta-galactosidase sequences
+
+db_with_b.lactamase.faa: custom database of beta-lactamase sequences
+
+db_with_HTA.faa : custom database of homoserine O-acetyltransferase sequences
+
+full_golden_db.fasta : custom database of proteins with experimentally verified functions 
+
+unique_golden_db.fasta : uniquified version of the full_golden_db.fasta in which sequences 
+  with greater than 50% identity to another sequence in the database were removed.
