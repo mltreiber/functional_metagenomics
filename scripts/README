@@ -6,13 +6,16 @@ Merging with Pear: For this step, the user must download pear version 0.9.6.
 Read cleaning with Trimmomatic: For this step, the user must download trimmomatic version 0.33
 Annotation step using DIAMOND: For this step, user must download DIAMOND dependencies. To use DIAMOND, the Beta-galactosidase databases must be in the old NCBI format. old_NCBI_format.py is a python script created to format fasta headers into this format.
 Aggregation step: For this step, user can use b-galac-counts.sh, a bash script created to give total counts of beta-galactosidase matches for each DIAMOND annotation output that have increasing doses of beta-galactosidase
-Selection of appropriate e-value threshold for mapping reads:
+
+
+Scripts for the Selection of appropriate e-value threshold for mapping reads:
 
 run_HTA_evalue_sensitivty_specificity.sh: Bash script created to run sensitivty_specificity_HTA_evalue.py as a loop over multiple files creating two final output tables with results for multiple DIAMOND output files varying in e-value parameters. sensitivty_specificity_HTA_evalue.py will calculate true positive, false positive, true negative, and false negative rates and print to a table in preparation for an ROC curve. The script will also calculate specificity, sensitivity, and accuracy and create another output table for those results.
 
 run_beta-gal_evalue_sensitivty_specificity.sh: Bash script created to run sensitivty_specificity_beta_gal_evalue.py as a loop over multiple files creating two final output tables with results for multiple DIAMOND output files varying in e-value parameters. sensitivty_specificity_beta_gal_evalue.py will calculate true positive, false positive, true negative, and false negative rates and print to a table in preparation for an ROC curve. The script will also calculate specificity, sensitivity, and accuracy and create another output table for those results.
 
-Construction of simulated metagenomes with increasing dosage of beta galactosidase:
+
+Scripts for the Construction of simulated metagenomes with increasing dosage of beta galactosidase:
 
 subsample.sh: Bash script created to subsample a large metagenome into multiple smaller metagenomes and printing subsamples to an output file.
 
