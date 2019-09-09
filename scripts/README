@@ -23,9 +23,9 @@ sort_golden_db.py: Python script created to sort golden database into two sub-da
 1. Database containing the enzyme of interest and the other that contains 
 2. Database containing all other proteins that are not the enzyme of interest.
 
-run_beta-gal_rate_in_subsamples.sh: Bash script created to count the abundance of beta-gal in all subsamples of large stool metagenome.
-
 build_test_db.py: Python script created to build 100 test databases with an increasing amount of enzyme of interest (1/5,000 to 100/5,0000)
+
+run_beta-gal_rate_in_subsamples.sh: Bash script created to count the abundance of beta-gal in all subsamples of large stool metagenome.
 
 find_R1_and_R2_matches_4.25.18.py: Python script created to find number of all Query Seq IDs from R1 and R2 reads that match: same Query Seq ID mapping to the same Subject Seq ID. The congruent matches are printed to an output file: 1. Query Seq ID 2. Subject Seq ID
 
