@@ -19,7 +19,9 @@ Scripts for the Construction of simulated metagenomes with increasing dosage of 
 
 subsample.sh: Bash script created to subsample a large metagenome into multiple smaller metagenomes and printing subsamples to an output file.
 
-sort_golden_db.py: Python script created to sort golden database into two sub-databases: 1. Database contains the enzyme of interest and the other that contains 2. Database containing all other proteins that are not the enzyme of interest.
+sort_golden_db.py: Python script created to sort golden database into two sub-databases: 
+1. Database containing the enzyme of interest and the other that contains 
+2. Database containing all other proteins that are not the enzyme of interest.
 
 run_beta-gal_rate_in_subsamples.sh: Bash script created to count the abundance of beta-gal in all subsamples of large stool metagenome.
 
